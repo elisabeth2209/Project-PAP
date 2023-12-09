@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #47146C;
+  color: #fff;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.profil {
+  margin-top: 10px;
+}
+
+.profil h2 {
+  font-size: 1.7em;
+}
+
+.profil img {
+  width: 200px;
+  height: 200px;
+}
+
+.keunggulan {
+  margin-top: 10px;
+}
+
+.prestasi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.prestasi li {
+  margin-bottom: 5px;
+}
+
+.kontak {
+  margin-top: 20px;
+}
+
+.kontak p {
+  font-size: 1em;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 10px;
+}
