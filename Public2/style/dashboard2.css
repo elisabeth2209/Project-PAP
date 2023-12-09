@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #navLink:hover {
   background-color: yellow;
   color: black;
@@ -159,3 +160,166 @@ button:hover {
 
 
 
+=======
+#navLink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.row1Header {
+  background-color: #; /* Tambahkan warna latar belakang yang diinginkan */
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row2Header a:hover {
+  color: yellow;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #431A61;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: white;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #2b00c5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.row2Header a {
+  color: white;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #431A61;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  color: white;
+  text-align: left; /* Align text to the left */
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #2b00c5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.titleContainer {
+  width: 50%;
+  height: 80%;
+  background-color: ; /* Tambahkan warna latar belakang yang diinginkan */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+/* Style untuk input saat tidak dihover */
+input[type="text"] {
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Style untuk input saat dihover */
+input[type="text"]:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Style untuk tombol saat tidak dihover */
+button {
+  border: none;
+  background-color: #431A61;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style untuk tombol saat dihover */
+button:hover {
+  background-color: #431A61;
+  opacity: 0.8;
+}
+
+  /* Set text color to white */
+  body, h3, h6, a {
+    color: #ffffff; /* or use color: white; */
+  }
+
+  /* Set link color to white and remove underline */
+  a {
+    color: #ffffff; /* or use color: white; */
+    text-decoration: none;
+  }
+
+  /* Set link color to white on hover */
+  a:hover {
+    color: #ffffff; /* or use color: white; */
+  }
+  footer {
+    background-color: #431A61;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#social-link a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#social-link img {
+    max-width: 30px;
+    height: auto;
+    margin-bottom: -5px; /* Membuat ikon sedikit lebih tinggi dari teks */
+}
+
+
+
+>>>>>>> f4fc344c90fcf5634127ba3c240aa580cf0cbe09
